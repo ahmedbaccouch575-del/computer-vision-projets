@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+.github/
+.gitignore
+.vscode/
+.ipynb_checkpoints/
+*.ipynb
+data/
+tests/
+README.md
+Dockerfile
+.dockerignore

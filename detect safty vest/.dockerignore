@@ -1,0 +1,24 @@
+# Environnement et caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.git/
+.gitignore
+
+# Gros dossiers inutiles dans l'image
+runs/
+data/
+out/
+*.zip
+
+# Vidéos : montées au lancement, pas copiées dans l'image
+*.mp4
+*.avi
+*.mov
+
+# Divers
+*.log
+.DS_Store

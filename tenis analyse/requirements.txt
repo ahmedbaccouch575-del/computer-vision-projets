@@ -1,0 +1,56 @@
+# ============================================================
+# requirements.txt - Projets Computer Vision
+# Installation :  pip install -r requirements.txt
+# Python conseille : 3.10 a 3.12 (TensorFlow ne supporte pas toujours 3.13)
+# ============================================================
+
+# --- Base scientifique ---
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+tqdm
+
+# --- Images et video ---
+opencv-python
+pillow
+imageio
+albumentations
+
+# --- Deep learning (choisis PyTorch OU TensorFlow, pas besoin des deux) ---
+torch
+torchvision
+# tensorflow          # decommente si tu utilises MobileNet/CNN avec Keras
+
+# --- Detection et suivi d'objets (YOLO, football, drone, AgriVision) ---
+ultralytics
+supervision
+
+# --- Visages, mains, pose, pouls sans contact (rPPG) ---
+mediapipe
+
+# --- Modeles pre-entraines (BLIP, DETR, etc.) ---
+transformers
+timm
+huggingface_hub
+
+# --- Application et API ---
+streamlit
+fastapi
+uvicorn
+python-multipart
+requests
+python-dotenv
+
+# --- Notebook / outils ---
+jupyter
+ipykernel
+kaggle
+
+# --- Optionnel selon le projet ---
+# websockets          # flux temps reel (pouls webcam)
+# langchain           # agent "poser une question a une image"
+# langchain-community
+# lightgbm            # modeles tabulaires (alerte incendies)
+# onnxruntime         # inference rapide / Raspberry Pi

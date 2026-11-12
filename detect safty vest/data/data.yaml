@@ -1,0 +1,13 @@
+path: C:/detect safty vest/data
+train: train/images
+val: valid/images
+test: test/images
+nc: 6
+names: ['blue helmet', 'person', 'red helmet', 'vest', 'white helmet', 'yellow helmet']
+
+roboflow:
+  workspace: project
+  project: safe-vmuxk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/safe-vmuxk/dataset/1
